@@ -10,6 +10,7 @@ export const QuestionList: React.FC=() => {
 	const [score,setScore]=useState<number>(0);
 	const [answers,setAnswers]=useState({});
 	const [idsOfAnswerdQuestions,setIdsOfAnswerdQuestions]=useState<string[]>([]);
+	console.log(idsOfAnswerdQuestions)
 	const [disabled,setDisabled]=useState<boolean>(false);
 
 	const [idsOfQuestions,setIdsQuesions]=useState<string[]>([]);
