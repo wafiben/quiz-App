@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 export const QuestionList: React.FC=() => {
 	const [show,setShow]=useState<boolean>(false);
-	const [list,setList]=useState<Question[]>(data);
+	const [list]=useState<Question[]>(data);
 	const [score,setScore]=useState<number>(0);
 	const [answers,setAnswers]=useState({});
 	const [idsOfAnswerdQuestions,setIdsOfAnswerdQuestions]=useState<string[]>([]);
