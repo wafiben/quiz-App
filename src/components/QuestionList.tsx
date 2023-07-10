@@ -50,7 +50,6 @@ export const QuestionList: React.FC=() => {
 
 	return (
 		<Card className="m-3">
-			<h1>sssssssssssssssssss</h1>
 			<div className="d-flex justify-content-center align-items-center flex-column">
 				{list.map((elt) => (
 					<QuestionComponent
